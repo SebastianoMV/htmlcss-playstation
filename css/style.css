@@ -46,6 +46,7 @@ header{
 
 .banner-small-2{
   background-color: #161c3c;
+  color: white;
 }
 /* BANNER */
 
@@ -53,7 +54,6 @@ header{
   color: #0071ed;
   text-transform: uppercase;
   font-weight: bold;
-
 }
 
 /* SECTION PS5 */
@@ -76,6 +76,27 @@ header{
 
 footer{
   background-color: #00439c;
+  color: white;
 }
 
+footer p a{
+  color: white;
+  text-decoration: underline;
+}
+
+.logo-sony{
+  width: 100px;
+}
+
+.language{
+  width: 20px;
+}
+
+.logo-sie{
+  width: 150px;
+}
+
+ul li{
+  list-style: none;
+}
 /* /FOOTER */
