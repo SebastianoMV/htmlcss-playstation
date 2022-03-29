@@ -37,8 +37,17 @@ header{
 
 .banner-2{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
- 
 }
+
+.banner-small-1{
+  background-color: #bdbcba;
+}
+
+.banner-small-2{
+  background-color: #161c3c;
+}
+
+
 
 /* SECTION PS5 */
 
