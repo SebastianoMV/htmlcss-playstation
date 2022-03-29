@@ -1,0 +1,32 @@
+/* DEBUG */
+
+.debug{
+  background-color: rgba(0, 255, 0, 0.2);
+  border: 1px solid black;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h500{
+  height: 500px;
+}
+
+/* MAIN */
+
+.banner{
+  background-color: antiquewhite;
+}
+
+.banner-small{
+  background-color: chocolate;
+}
