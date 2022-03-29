@@ -31,6 +31,30 @@
   background-position: center;
 }
 
-.banner-small{
- 
+.smv-card{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.active{
+  border: 3px solid #0071ed;
+}
+
+.smv-card img{
+  width: 100%;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.smv-opacity{
+  opacity: 0.5;
+}
+
+.active2{
+  opacity: 1;
+  border-bottom: 2px solid #0071ed;
+}
+
+.smv-gray-text{
+  color: #707070;
 }
