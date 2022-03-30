@@ -16,12 +16,26 @@ header{
   background-color: white;
 }
 
+header .sony-banner{
+ background-color: black;
+ height: 30px;
+}
 
-
-
+header .sony-banner img{
+  height: 50%;
+  margin-right: 5px;
+}
 
 
 /* MAIN */
+
+.smv-translate:hover{
+  transform: translateY(-5px);
+}
+
+.smv-opacity:hover{
+  opacity: 1;
+}
 
 /* /MAIN */
 
@@ -66,9 +80,6 @@ header{
   background-color: #1f1f1f;
   color: white;
 }
-
-
-
 
 
 
