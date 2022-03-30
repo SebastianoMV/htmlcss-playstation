@@ -76,6 +76,11 @@ a:hover{
   box-shadow: 0 0 0 5px #0071ed, inset 0 0 0 2px #0071ed;
 }
 
+.smv-btn-black{
+  background-color: #363636;
+  box-shadow: 0 0 0 5px #363636, inset 0 0 0 2px #363636;
+}
+
 .smv-btn-red{
   background: #cd3c0f;
   box-shadow: 0 0 0 5px #cd3c0f, inset 0 0 0 2px #cd3c0f;
@@ -111,4 +116,8 @@ a:hover{
 .smv-btn-white:hover{
   color: black;
   box-shadow: 0 0 0 5px white, inset 0 0 0 2px black;
+}
+
+.smv-btn-black:hover{
+  box-shadow: 0 0 0 5px #363636, inset 0 0 0 2px white;
 }

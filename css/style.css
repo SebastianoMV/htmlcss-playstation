@@ -26,12 +26,32 @@ header .sony-banner img{
   margin-right: 5px;
 }
 
+.smv-bg-white{
+  background-color: white;
+
+}
+
 .smv-nav{
   height: calc(100% - 30px);
 }
 
 .smv-col-grow{
   flex-grow: 1;
+}
+
+.smv-nav-ps{
+  width: 100%;
+  background-color: white;
+  top: 70px;
+  left: 0;
+}
+
+.smv-nav-ps img{
+  width: 100px;  
+}
+
+.lens{
+  width: 40px;
 }
 
 
