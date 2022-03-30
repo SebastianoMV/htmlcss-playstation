@@ -54,6 +54,26 @@ header .sony-banner img{
   width: 40px;
 }
 
+.nav-item .fa-solid{
+  color: #00439c;
+}
+
+.nav-item img{
+ 
+}
+
+.smv-d-none{
+  display: none;
+}
+
+.nav-item a:focus-within .smv-d-none{
+ display: inline-block;
+ transform: rotate(180deg);
+}
+
+.nav-item a:focus-within .smv-chev{
+  display: none;
+}
 
 /* MAIN */
 
