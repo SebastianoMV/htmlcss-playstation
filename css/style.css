@@ -50,35 +50,53 @@ header .sony-banner img{
   width: 100px;  
 }
 
+
+.smv-nav-ps div:hover{
+  box-shadow: 3px 5px 5px #888888;
+}
+
 .lens{
-  width: 40px;
+  width: 30px;
 }
 
-.nav-item .fa-solid{
-  color: #00439c;
-}
+.nav-item a:hover{
+  color: #00439c !important;
+ }
 
-.nav-item img{
- 
+.nav-item .nav-link img{
+ width: 15px;
 }
 
 .smv-d-none{
   display: none;
 }
 
-.nav-item a:focus-within .smv-d-none{
+.nav-item a:active .smv-d-none{
  display: inline-block;
  transform: rotate(180deg);
 }
 
-.nav-item a:focus-within .smv-chev{
+.nav-item a:active .smv-chev{
   display: none;
 }
+
+
+/* /HEADER */
 
 /* MAIN */
 
 .smv-translate:hover{
   transform: translateY(-5px);
+}
+
+.smv-opacity{
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.active2{
+  opacity: 1;
+  border-bottom: 2px solid #0071ed;
 }
 
 .smv-opacity:hover{
@@ -127,6 +145,14 @@ header .sony-banner img{
 .smv-dark{
   background-color: #1f1f1f;
   color: white;
+}
+
+.smv-dark .container .row .smv-card{
+  transition: 1s;
+}
+
+.smv-dark .container .row .smv-card:hover{
+  transform: scale(105%);
 }
 
 
