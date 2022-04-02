@@ -39,26 +39,42 @@ header .sony-banner img{
   flex-grow: 1;
 }
 
-.smv-nav-ps{
-  width: 100%;
-  background-color: white;
-  top: 70px;
-  left: 0;
+.smv-dropdown-static{
+  position: static;
 }
 
+.smv-style-drop-menu{
+  border: 0px;
+  margin-top: 0 !important;
 
+}
 
-.smv-nav-ps img{
+.dropdown-toggle::after{
+  content: none;
+}
+
+.smv-style-drop-menu img{
   width: 100px;  
 }
 
 
-.smv-nav-ps div:hover{
+.smv-style-drop-menu div:hover{
   box-shadow: 3px 5px 5px #888888;
+  cursor: pointer;
+}
+
+.smv-style-drop-menu ul li::before{
+  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+  color: #0071ed;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 .lens{
   width: 30px;
+  cursor: pointer;
 }
 
 .nav-item a:hover{
@@ -73,12 +89,12 @@ header .sony-banner img{
   display: none;
 }
 
-.nav-item a:active .smv-d-none{
+.nav-item a:focus-within .smv-d-none{
  display: inline-block;
  transform: rotate(180deg);
 }
 
-.nav-item a:active .smv-chev{
+.nav-item a:focus-within .smv-chev{
   display: none;
 }
 
@@ -87,17 +103,16 @@ header .sony-banner img{
 
 /* MAIN */
 
-.smv-translate:{
+.smv-card-transition:{
   filter: brightness(90%);
 }
 
-.smv-translate:hover{
-  transition: transform 1s;
-}
 
-.smv-translate:hover{
+.smv-card-transition:hover{
+  transition: transform 1s;
   transform: translateY(-5px);
   filter: brightness(120%);
+  box-shadow: 5px 5px 10px black;
 }
 
 .smv-opacity{
